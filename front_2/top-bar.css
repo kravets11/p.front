@@ -1,0 +1,46 @@
+.top-bar{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	line-height: 38px;
+	padding: 0 80px;
+	align-items:  center;
+	background: #f2f2f2;
+}
+
+.top-bar a {
+	color: #393939;
+	text-decoration: none;
+
+}
+
+.top-bar i.fa-phone {
+	transform: rotate(90deg);
+}
+
+.phone-number {
+	margin: 0 20px;
+}
+
+.top-bar .navigation ul{
+	margin: 0;
+	text-transform: uppercase;
+	list-style: none;
+	display: inline-flex;
+}
+
+.top-bar .navigation ul li{
+	align-self: center;
+}
+
+.top-bar .navigation ul li:not(:first-child)::before {
+	content: "|";
+	padding: 0 34px; 
+}
+
+/*@media  screen and (max-width: 1000px){
+	.top-bar {
+		display: none;
+	}
+}*/

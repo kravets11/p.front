@@ -1,0 +1,237 @@
+.navbar{
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+}
+.nav-link , .navbar-brand{
+    color: #f4f4f4;
+    cursor: pointer;
+}
+.nav-link{
+    margin-right: 1em !important;
+}
+.nav-link:hover{
+    color: rgba(255,255,255, 0.7);
+}
+.navbar-collapse{
+    justify-content: flex-end;
+}
+.navbar-toggler{
+    background:#fff !important;
+}
+.menu {
+    padding: 20px!important;
+    background-color: rgba(0, 59, 177, 1);
+    box-shadow: -1px 1px 1px rgba(20, 97, 255, 0.1);
+}
+.header{
+    background-size: cover;
+    background: url('../img/4k_foto.jpg') fixed center;
+    height: 100vh;
+    width: 100%;
+}
+.overlay{
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    left: 0;
+    top: 0;
+    background: -webkit-linear-gradient(-45deg,rgba(88, 195, 255,.7) 0,rgba(0, 77, 230,.7) 40%,rgba(0, 59, 177,.7) 100%);
+}
+.description{
+    position: absolute;
+    top: 30%;
+    margin: auto;
+    padding: 2em;
+}
+.description h1{
+    color:#1461ff;
+    background-color: #ffffff;
+    width: 130px;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+}
+.description p{
+    color: #ffffff;
+    font-size: 20px;
+    width: 50%;
+    line-height: 1.5;
+}
+.description button{
+    border: 1px  solid #fff;
+    background: transparent;
+    color:#fff;
+    transition: 1s;
+}
+.description button:hover {
+    background-color: #fff;
+    color: #1461ff;
+    transition: .8s ease-in-out;
+}
+.container {
+    padding-bottom: 100px;
+    margin-bottom: 100px;
+    border-bottom: 1px solid #cce5ff;
+}
+
+.container:first-child {
+    border-bottom: none;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.about{
+    margin: 4em 0;
+    padding: 1em;
+    position: relative;
+}
+.about h1{
+    color:#1461ff;
+    margin: 2em;
+}
+.brd{
+    padding-bottom: 6px;
+    display: inline-block;
+    border-bottom: 4px solid #1461ff;
+}
+
+.about img {
+    height: auto;
+    max-width: 100%;
+}
+
+.about span{
+    display: block;
+    color: #888;
+    position: absolute;
+    left: 115px;
+}
+.about .desc{
+    padding: 2em;
+    border-left:4px double #1461ff;
+}
+.about .desc h3{
+    color: #1461ff;
+    font-family: 'Raleway', sans-serif;
+}
+.about .desc p{
+    line-height:2;
+    color:#888;
+    margin-bottom: 80px;
+}
+.main-btn{
+    display: block;
+    color: #fff;
+    font-size: 14px;
+    padding: 24px 40px;
+    font-weight: 600;
+    background: linear-gradient(-45deg,rgba(88, 195, 255,.8) 0,rgba(0, 77, 230,.8) 40%,rgba(0, 59, 177,.8) 100%);
+    line-height: 10px;
+    border: none;
+    border-radius: 30px;
+    transition: 1s ease-in-out;
+}
+
+.main-btn:focus, .main-btn:hover {
+    color: #1461ff;
+    background: #fff;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 10px 25px;
+    text-decoration: none;
+    transition: 1s ease-in-out;
+}
+
+.portfolio{
+    margin: 4em 0;
+    position: relative;
+}
+.portfolio h1{
+    color: #1461ff;
+    margin: 2em;
+}
+.portfolio img{
+    height: 15rem;
+    width: 100%;
+    margin: 1em;
+    transition: 1s;
+}
+
+.portfolio img:hover {
+    transition: 2s ease;
+    border-bottom: 3px solid #1461ff;
+    transform: translateY(-10px);
+}
+
+.blog{
+    margin: 4em 0;
+    position: relative;
+}
+.blog h1{
+    color: #1461ff;
+    margin: 2em;
+}
+.blog .card{
+    box-shadow: 0 0 20px #ccc;
+}
+.blog .card img{
+    width: 100%;
+    height: 12em;
+}
+.blog .card-title{
+    color: #1461ff;
+}
+.blog .card-body{
+    padding: 1em;
+}
+.team{
+    margin: 4em 0;
+    position: relative;
+}
+.team h1{
+    color: #1461ff;
+    margin: 2em;
+}
+.team .item{
+    position: relative;
+}
+.team .des {
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    background: #1461ff;
+    color: #fff;
+    text-align: center;
+    transition: .9s ease-in-out;
+}
+.team .item:hover .des{
+    height: 100%;
+    background:rgba(20, 97, 255, .7);
+    position: absolute;
+    width: 90%;
+    padding: 100px;
+    top: 0;
+    transition: .5s;
+}
+.item img {
+    height: 366px;
+    width: 626px;
+}
+
+.contact-form{
+    margin: 6em 0;
+    position: relative;
+}
+.contact-form h1{
+    padding:2em 1px;
+    color: #1461ff;
+}
+.contact-form .right{
+    max-width: 600px;
+}
+.contact-form .right .btn-secondary{
+    background: #1461ff;
+    color: #fff;
+    border:0;
+}
+.contact-form .right .form-control::placeholder{
+    color: #888;
+    font-size: 16px;
+}
